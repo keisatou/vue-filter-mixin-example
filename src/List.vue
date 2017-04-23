@@ -14,6 +14,9 @@ import { fruitMixin } from './fruitMixin';
 
 export default {
   mixins: [fruitMixin], // filteredFruits
+  created() {
+    console.log('Created! (List)');
+  },
 };
 </script>
 
