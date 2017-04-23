@@ -3,6 +3,7 @@ extends: airbnb
 plugins:
   - vue
 rules:
+  arrow-body-style: off
   no-new: off
   no-console: off
   no-param-reassign:
